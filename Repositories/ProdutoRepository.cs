@@ -3,6 +3,7 @@ using Senai.EfCore.Domains;
 using Senai.EfCore.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -25,7 +26,8 @@ namespace Senai.EfCore.Repositories
         {
             try
             {
-                return _ctx.Produtos.ToList();
+                List<Produto> produtos = _ctx.Produtos.ToList();
+                return produtos;
             }
             catch (Exception ex)
             {
@@ -43,7 +45,7 @@ namespace Senai.EfCore.Repositories
         {
             try
             {
-                //return _ctx.Produtos.FirstOrDefault(c => c.Id == id && c.Nome == "produto");
+                //return _ctx.Produtos.FirstOrDefault(c => c.Id == id && c.Nome == "produto"); top 1
                 return _ctx.Produtos.Find(id);
             }
             catch (Exception ex)
@@ -84,8 +86,8 @@ namespace Senai.EfCore.Repositories
 
                 //Verifica se produto existe
                 //Caso não existe gera um exception
-                if (produtoTemp == null)
-                    throw new Exception("Produto não encontrado");
+                // if (produtoTemp == null)
+                // throw new Exception("Produto não encontrado");
 
                 //Caso exista altera suas propriedades
                 produtoTemp.Nome = produto.Nome;
@@ -98,9 +100,9 @@ namespace Senai.EfCore.Repositories
             }
             catch (Exception ex)
             {
-
+                //TODO: Cadastar tabela log erro mensagem erro com Tag Geral
                 throw new Exception(ex.Message);
-            }
+            }  
         }
 
         /// <summary>
@@ -149,6 +151,8 @@ namespace Senai.EfCore.Repositories
             }
             catch (Exception ex)
             {
+                // to do aparece em exibir, lista de tarefas
+                //TODO : Incluir erro no log do banco de dados
                 throw new Exception(ex.Message);
             }
         } 
