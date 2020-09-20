@@ -28,8 +28,6 @@ C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\S
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.csproj.CopyComplete
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.csproj.CoreCompileInputs.cache
-C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Senai.EfCore.deps.json
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Senai.EfCore.runtimeconfig.json
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Senai.EfCore.runtimeconfig.dev.json
@@ -59,3 +57,8 @@ C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\r
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.dll
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.pdb
 C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.genruntimeconfig.cache
+C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.csproj.CoreCompileInputs.cache
+C:\Users\NdL\Documents\Senai\Senai.EfCore\Senai.EfCore\obj\Debug\netcoreapp3.1\Senai.EfCore.MvcApplicationPartsAssemblyInfo.cache
